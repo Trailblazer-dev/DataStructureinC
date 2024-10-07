@@ -1,4 +1,5 @@
-## The binary search algorithm is an efficient method for finding a target value within a sorted array.
+# The binary search algorithm is an efficient method for finding a target value within a sorted array
+
  It works by repeatedly dividing the search interval in half. Here's a step-by-step explanation of how it operates:
 
 ## Initial Setup:

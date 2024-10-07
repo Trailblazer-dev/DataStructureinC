@@ -25,4 +25,4 @@ It initializes an integer n to 3, representing the number of disks. It then call
 
 The function call will print the sequence of moves required to solve the Tower of Hanoi problem for 3 disks.
 
-The program returns 0 to indicate successful execution. This implementation effectively demonstrates the power of recursion in solving complex problems by breaking them down into simpler subproblems
+The program returns 0 to indicate successful execution. This implementation effectively demonstrates the power of recursion in solving complex problems by breaking them down into simpler subproblems.
