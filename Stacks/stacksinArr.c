@@ -4,10 +4,29 @@
 int stack_arr[MAX];
 int top = -1;
 
+
+
+int isFull(){
+    if(top ==MAX-1){
+        return 1; // it return 1 which when evaluated is true
+    }
+    else{
+        return 0;
+    }
+}
+
+int isEmpty(){
+    if(top==-1){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
 // Function to push an element onto the stack
 void push(int data)
 {
-    if (top == MAX - 1)
+    if (isFull())
     { // Stack overflow condition
         printf("Stack overflow\n");
         return;
@@ -31,7 +50,7 @@ void pop()
 // Function to print the elements of the stack
 void print_stack()
 {
-    if (top == -1)
+    if (isEmpty())
     {
         printf("Stack is empty\n");
         return;
@@ -43,6 +62,7 @@ void print_stack()
     }
     printf("\n");
 }
+
 
 int main()
 {
