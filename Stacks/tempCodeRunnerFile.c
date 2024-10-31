@@ -1,1 +1,0 @@
-printf(stack_arr);
