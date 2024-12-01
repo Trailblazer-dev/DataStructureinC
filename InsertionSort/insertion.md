@@ -46,6 +46,7 @@ The Insertion Sort algorithm works as follows:
 ```sh
    gcc insertion.c -o insertion
    ```
+
 2. Run the compiled program:
 
 ```sh
